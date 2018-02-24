@@ -4,7 +4,7 @@ import Welcome from './Welcome';
 import Setup from './Setup';
 
 it('renders Welcome without crashing', () => {
-  shallow(<Welcome />)
+  shallow(<Welcome />);
 });
 
 it('renders an h1', () => {
